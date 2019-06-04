@@ -1,5 +1,5 @@
 export default {
-  name: 'Button with notification click',
+  storyName: 'Button with notification click',
 
   template: `<b-button @click="clickMe">Click Me</b-button>`,
 

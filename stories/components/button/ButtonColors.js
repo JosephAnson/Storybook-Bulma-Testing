@@ -1,5 +1,5 @@
 export default {
-    name: 'Button with theme colours',
+    storyName: 'Button with theme colours',
 
     template: `
         <div>

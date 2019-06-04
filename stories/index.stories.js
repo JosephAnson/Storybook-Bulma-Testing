@@ -11,10 +11,16 @@ for (let story in stories) {
     storiesOf('Button', module)
         .addDecorator(story => wrapComponent(story, '', ''))
         .add(
-            stories[story].name,
+            stories[story].storyName,
             () => stories[story],
             {
-                notes: stories[story].notes,
+                notes: {
+                    markdown: `# Notes
+${stories[story].notes}
+
+#Code
+    ${stories[story].template}`
+                },
             }
         );
 }
