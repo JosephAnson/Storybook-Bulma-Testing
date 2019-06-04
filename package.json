@@ -1,0 +1,50 @@
+{
+  "name": "storybook-bulma-testing",
+  "version": "1.0.0",
+  "description": "Full visual and jest component testing for the bulma framework",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "test": "npm run storybook",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephAnson/Storybook-Bulma-Testing.git"
+  },
+  "author": "Joseph Anson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephAnson/Storybook-Bulma-Testing/issues"
+  },
+  "homepage": "https://github.com/JosephAnson/Storybook-Bulma-Testing#readme",
+  "dependencies": {
+    "buefy": "^0.7.7",
+    "bulma": "^0.7.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.11",
+    "emotion-theming": "^10.0.10",
+    "@storybook/addon-storyshots": "^5.0.11",
+    "@storybook/addon-storyshots-puppeteer": "^5.0.11",
+    "@storybook/cli": "^5.0.11",
+    "@storybook/core": "^5.0.11",
+    "@storybook/ui": "^5.0.11",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addons": "^5.0.11",
+    "@storybook/vue": "^5.0.11",
+    "@storybook/theming": "^5.0.11",
+    "@storybook/addon-backgrounds": "^5.0.11",
+    "@storybook/addon-storysource": "^5.0.11",
+    "@storybook/addon-viewport": "^5.0.11",
+    "@storybook/addon-notes": "^5.0.11",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "regenerator-runtime": "^0.13.2",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
