@@ -4,7 +4,7 @@
   "description": "Full visual and jest component testing for the bulma framework",
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "test": "npm run storybook",
+    "test": "jest",
     "build-storybook": "build-storybook"
   },
   "repository": {
@@ -23,6 +23,7 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
+    "@vue/babel-preset-app": "^3.8.0",
     "@babel/core": "^7.4.5",
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.11",
@@ -38,10 +39,17 @@
     "@storybook/addon-backgrounds": "^5.0.11",
     "@storybook/addon-viewport": "^5.0.11",
     "@storybook/addon-notes": "^5.0.11",
+    "jest": "^24.8.0",
     "babel-loader": "^8.0.6",
     "babel-preset-vue": "^2.0.2",
+    "identity-obj-proxy": "^3.0.0",
     "regenerator-runtime": "^0.13.2",
     "vue-loader": "^15.7.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-jest": "^3.0.4",
+    "jest-transform-stub": "^2.0.0",
+    "jest-serializer-vue": "^2.0.2",
+    "vue-template-compiler": "^2.6.10",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "jest-vue-preprocessor": "^1.5.0"
   }
 }

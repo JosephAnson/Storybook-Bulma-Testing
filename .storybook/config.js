@@ -1,4 +1,4 @@
-import {configure} from '@storybook/vue';
+import {addParameters, configure} from '@storybook/vue';
 
 import Vue from 'vue'
 import Buefy from 'buefy'

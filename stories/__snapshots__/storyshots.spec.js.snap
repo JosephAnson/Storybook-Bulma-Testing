@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Button with notification click 1`] = `
+<div
+  class="section"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="columns is-multiline is-centered "
+    >
+      <div
+        class="column  "
+      >
+        <button
+          class="button"
+          type="button"
+        >
+          <!---->
+           
+          <span>
+            Click Me
+          </span>
+           
+          <!---->
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button Button with theme colours 1`] = `
+<div
+  class="section"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="columns is-multiline is-centered "
+    >
+      <div
+        class="column  "
+      >
+        <div>
+          <a
+            class="button is-primary"
+          >
+            Primary
+          </a>
+           
+          <a
+            class="button is-link"
+          >
+            Link
+          </a>
+           
+          <a
+            class="button is-info"
+          >
+            Info
+          </a>
+           
+          <a
+            class="button is-success"
+          >
+            Success
+          </a>
+           
+          <a
+            class="button is-warning"
+          >
+            Warning
+          </a>
+           
+          <a
+            class="button is-danger"
+          >
+            Danger
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
