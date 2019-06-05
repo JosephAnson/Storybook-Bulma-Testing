@@ -6,6 +6,18 @@ import 'buefy/dist/buefy.css'
 
 Vue.use(Buefy);
 
+// Option defaults:
+addParameters({
+  options: {
+
+    /**
+     * display panel that shows addon configurations
+     * @type {Boolean}
+     */
+    showPanel: false,
+
+  },
+});
 
 function loadStories() {
   const req = require.context('../stories', true, /\.stories\.js$/);
