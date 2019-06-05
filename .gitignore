@@ -22,3 +22,7 @@ yarn-error.log*
 
 # Generated resolved webpack config file
 webpack.config.inspect.js
+
+# Jest
+__snapshots__
+__image_snapshots__

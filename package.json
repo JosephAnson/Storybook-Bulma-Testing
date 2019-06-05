@@ -5,6 +5,7 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "test": "jest",
+    "test:update": "jest -u",
     "build-storybook": "build-storybook"
   },
   "repository": {
